@@ -4,7 +4,7 @@
   "description": "This assignment teaches you how to write simple unit tests and run them locally and on GitHub Actions.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
